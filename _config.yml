@@ -4,8 +4,8 @@
 
 # Site
 title: Codarrior
-subtitle: I am just a voyager on this planet
-description: > 
+subtitle: A voyager on this planet
+description: >
   So many things around. Have you tried to ponder about those? Do you ask questions? I do. Do you just
   see or observe. I stare.
 keywords:
@@ -15,14 +15,14 @@ timezone: Australia/Melbourne
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://codarrior.mirazalmamun.xyz
+url: https://mirazmamun.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: docs
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -84,5 +84,7 @@ theme_config:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+# deploy:
+#   type: git
+#   repo: https://github.com/mirazmamun/mirazmamun.github.io.git
+#   branch: main
